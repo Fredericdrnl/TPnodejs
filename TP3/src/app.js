@@ -4,6 +4,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const TOKEN = conf.token;
 
+// DOURNEL Frédéric TD1
+
 // Créer un nouveau client
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
